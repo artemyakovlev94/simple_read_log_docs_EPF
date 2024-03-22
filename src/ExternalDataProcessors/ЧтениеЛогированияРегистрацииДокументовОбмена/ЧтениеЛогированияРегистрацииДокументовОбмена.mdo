@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5d66e2f-61f2-4f61-adab-8e2915a2276a">
+  <producedTypes>
+    <objectType typeId="a388fd19-f418-46f7-8dd0-61c85cbb2f5b" valueTypeId="8a95509d-d054-4883-a247-b60ac5fee080"/>
+  </producedTypes>
+  <name>ЧтениеЛогированияРегистрацииДокументовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение логирования регистрации документов обмена</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="1470eeb9-d05b-4f61-8577-27c3ad590d00"/>
+  <defaultForm>ExternalDataProcessor.ЧтениеЛогированияРегистрацииДокументовОбмена.Form.Форма</defaultForm>
+  <forms uuid="6eb29e1a-bb4c-4c68-9157-98d2629c5b52">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e65cd227-3352-4c5a-93aa-5d7ab8a0c0d6">
+    <name>ПолучениеДанныхИзЖР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение данных из журнала регистрации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
